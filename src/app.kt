@@ -61,6 +61,20 @@ It was a continuation of the SALT I talks."""*/
     println(rate)
 
 
+    for(i in 1..9){
+        for(j in 1..9){
+            print("${i * j} \t")
+        }
+        println()
+    }
+
+    var i = 10
+    while(i > 0){
+        println(i*i)
+        i--
+    }
+
+
    /* val c = if (a > b) a else b
     println(c)
 
