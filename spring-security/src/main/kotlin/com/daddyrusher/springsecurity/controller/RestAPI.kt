@@ -23,7 +23,7 @@ class RestAPI(private val customerRepository: CustomerRepository) {
     @GetMapping("/{id}")
     fun findById(@PathVariable id: Long) = customerRepository.findById(id)
 
-    @GetMapping("/{lastname}")
+    @GetMapping("/{lastName}")
     fun findByLastName(@PathVariable lastName: String): List<Customer> = customerRepository.findByLastName(lastName)
 
 }
