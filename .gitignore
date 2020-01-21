@@ -1,5 +1,5 @@
 HELP.md
-.gradle
+spring-security/.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
